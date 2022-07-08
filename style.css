@@ -1,0 +1,324 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* STYLE SECTIONING TAGS */
+body{
+  text-align:center;
+  background-color: #b2c9e3;
+}
+
+main{
+  text-align:center;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+
+}
+
+#name{
+  font-family:"Roboto", sans-serif;
+  font-size: 26px;
+}
+
+#pronouns{
+  font-family: "roboto condensed", sans-serif;
+  font-size: 24px;
+}
+
+#descriptors{
+  font-family: "roboto condensed", sans-serif;
+  font-size: 20px;
+}
+
+.flex-container{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 1%;
+  
+}
+
+#circlepic{
+  max-width:240px;
+  border-radius: 50%;
+  border: 3px black;
+  word-wrap: break-word;
+  margin-top: 15px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.project a:hover{
+  box-shadow: 1px 7px 5px #838fa0;
+}
+
+
+
+#about-me-section{
+  border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#about-me-section{
+  background-image: linear-gradient(rgba(255,255,255,.4),rgba(255,255,255,0.2)), url(assets/pose4.jpg)
+}
+
+/* STYLE TEXT on Home Page */
+
+#welcomeSection{
+  background-image:linear-gradient(70deg, #E0DEFD, #ecfcf5,#f4fff0, #fbf7ea,#d4f7f0, #ecfcf5)
+}
+
+#welcome{
+  margin-top:50px;
+  padding:5px;
+  
+  
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: .5em;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+/* portfolio section */
+
+#portfolio-section{
+  height: 100vh;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.4)), url("assets/portfoliobg.jpg");
+
+  background-size: cover; /* Add this line */
+    
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#portfolio-button{
+  font-family:open sans, sans-serif;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 40px;
+  color:#7a83fd;
+}
+
+#portfolio-button:hover{
+  color: white;
+  box-shadow: 10,10,5,#858585;
+}
+
+/*About Me Section*/
+
+.aboutHeader{
+  margin-top: 1em;
+
+  font-family: "M PLUS Rounded 1c", serif;
+  font-size: 25px;
+  color: black;
+}
+
+/* blurb under name*/
+h2{
+  font-family:"Roboto", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight:.1em;
+  padding: 1em;
+}
+/* blog coming soon message */
+h3{
+  font-family: "Open sans";
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Styling the 3 paragraphs */
+.para{
+  padding-bottom:2em;
+  line-height:1.4em;
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  font-size:18px;
+  max-width: 600px;
+}
+#para-one{
+  margin-top: 2em;
+}
+
+
+
+/* Style text on Portfolio Page */
+
+
+#portfoliopage{
+  margin-top:1em;
+  margin-bottom:1em;
+  font-size: 40px;
+  font-family: 'cabin', sans-serif;
+}
+
+/* Portfolio page images */
+
+.projectpictures{
+  max-height: 270px;
+  max-width: 300px;
+  
+}
+
+/* Portfolio page text */
+
+#welcomeportfolio{
+  font-family: "sans-serif", sans-serif;
+  font-size: 16px;
+}
+
+.projecttitles{
+  font-family: "zilla slab", serif;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.projecttext{
+  font-family: "cabin", serif;
+  font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Home images*/
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+#main-img  {    /* the circle for the picture */
+  border-radius: 40px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  max-height: 40%;
+  max-width: 40%;
+  border: 1.5em solid #3c41e5;
+}
+
+/* STYLE NAV BAR */
+
+/* nav bar */
+
+nav{
+  display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.3em;
+    line-height: 2em;
+   border: 1px white;
+  background-color: #e9ede7;
+}
+
+#nav-bar{
+  list-type-style: none;
+  background-color: #e9ede7;
+  overflow: hidden;
+  padding:.7em;
+}
+
+.nav-button{
+  display: inline;
+  font-family: roboto condensed, serif;
+  text-decoration: none;
+  font-size: 16px;
+  color: #7a83ff;
+  border-radius: 10px;
+  padding:.6em;
+}
+
+.nav-button a {
+  text-decoration:none;
+  color: black;
+  padding:.6em;
+}
+
+.nav-button a:hover{
+  background-color: #f84aa7;
+  border-radius: 20px;
+  border: 10px white;
+}
+
+/* style contact-bar */
+
+#contact-section {
+  padding: 1.5em;
+  background-color: #e9ede7;
+}
+
+#contact-bar{ /*ul*/
+  list-type-style: none;
+  overflow: hidden;
+}
+
+.contact-button{ /*li*/
+  display:inline;
+  font-family: roboto condensed;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: .6em;
+  color:#7a83ff;
+}
+
+.contact-button a{ /* clickable li */
+  text-decoration:none;
+  color: black;
+}
+
+.contact-button a:hover{
+  background-color: #e0c2ff;
+  border-radius: 20px;
+}
+
+@media screen and (max-width:850px){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+    .flex-item2{
+      max-width:50%;
+    }
